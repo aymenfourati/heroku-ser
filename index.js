@@ -3,30 +3,30 @@ const app = express();
 
 let users = {
     1: { 
-        "id" : "aymen Fourati",
+        "id" : "Dayami Huffman",
         "WalletAdress":"0x5B38Da6a701c568545dCfcB03FcB875f56beddC4",
-        "email": "aymen.fa@pepolls.com"
+        "email": "dayami@myemail.com"
     }, 
     2: { 
-        "id" : "amine bnr",
+        "id" : "Troy Webb",
         "WalletAdress":"0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2",
-        "email": "amine.bnr@pepolls.com"
+        "email": "troy@myemail.com"
     },
     3: {
-        "id" : "amine cdo",
+        "id" : "Jason Villegas",
         "WalletAdress":"0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db",
-        "email": "amine.ds@pepolls.com"
+        "email": "jason@myemail.com"
 
     },
     4: {
-        "id" : "jihed ceo",
+        "id" : "Amya Odom",
         "WalletAdress":"0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB",
-        "email": "jihed.ra@pepolls.com"
+        "email": "amya@myemail.com"
     },
     5: {
-        "id" : "jihen coo",
+        "id" : "Ari David",
         "WalletAdress":"0x617F2E2fD72FD9D5503197092aC168c91465E7f2",
-        "email": "jihen.ra@pepolls.com"
+        "email": "ari@myemail.com"
     }
   };
   
