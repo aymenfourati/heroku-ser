@@ -100,6 +100,13 @@ let users = {
     return res.send(users[req.params.userId].WalletAdress)
   });
 
+  app.get('/users/:userId/email', (req, res) => {
+    return res.send(users[req.params.userId].email)
+  });
+
+  app.get('/users/:userId/id', (req, res) => {
+    return res.send(users[req.params.userId].id)
+  });
 
   app.listen(process.env.PORT, () =>
   console.log(`Example app listening on port ${process.env.PORT}!`),
